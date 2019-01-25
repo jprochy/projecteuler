@@ -14,4 +14,4 @@ result = [is_lychrel(num) for num in range(10001)].count(True)
 
 print(f"Result: {result}")
 end = time.time()
-print("Time: {0:.4f} ms".format(end - start))
+print("Time: {0:.2f} ms".format((end - start)*1000))

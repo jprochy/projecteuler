@@ -14,4 +14,4 @@ while not same_upto_6x(num):
 
 print(f"Result: {num}")
 end = time.time()
-print("Time: {0:.4f} ms".format(end - start))
+print("Time: {0:.2f} ms".format((end - start)*1000))

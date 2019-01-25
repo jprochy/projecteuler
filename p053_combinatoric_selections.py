@@ -19,4 +19,4 @@ result = sum([more_than_million(num) for num in range(1, 101)])
 
 print(f"Result: {result}")
 end = time.time()
-print("Time: {0:.4f} ms".format(end - start))
+print("Time: {0:.2f} ms".format((end - start)*1000))
