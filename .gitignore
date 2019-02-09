@@ -19,3 +19,13 @@ pip-delete-this-directory.txt
 
 # Random
 template.py
+
+
+# venv
+bin/
+etc/
+include/
+lib/
+lib64
+share/
+pyvenv.cfg
